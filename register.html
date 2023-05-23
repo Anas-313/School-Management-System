@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">  
+    <title>Register or Signup</title>
+</head>
+<body>
+    <form>
+        <h2>Register Form</h2>
+        <label for="Username">Username</label>
+        <input type="text" name="username" id="username" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+
+        <label for="Re-password">Re-Password</label>
+        <input type="password" name="re-password" id="re-password" required>
+
+        <label for="firstname">First-Name</label>
+        <input type="text" name="fname" id="fname" required>
+
+        <label for="secondname">Second-Name</label>
+        <input type="text" name="sname" id="sname" required>
+
+        <div class="gender">
+            
+        <input type="radio" name="gender" id="male">
+        <label for="gender">Male</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="gender">Female</label>
+       </div>
+
+       <label for="state">State</label>
+        <select id="state" name="state">
+            <option value="st">Select State</option>
+            <option value="st">Gujarat</option>
+            <option value="st">Haryana</option>
+            <option value="st">Jharkhand </option>
+            <option value="st">Madhya Pradesh</option>
+            <option value="st">Maharashtra </option>
+            <option value="st">Uttar Pradesh</option>
+            
+        </select>
+
+        <button type="submit" class="btn">SUBMIT</button>
+
+        <p>Already have an account? <a href="login.html">Sign-In</a></p>
+    </form>
+    
+</body>
+</html>
